@@ -1,0 +1,6 @@
+name: ${name}
+version: ${version}
+description: ${description}
+authors: [ ${authors} ]
+main: cc.maicra999.advnotify.AdvNotify
+api-version: "26.1"
