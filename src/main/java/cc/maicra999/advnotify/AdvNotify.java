@@ -13,7 +13,6 @@ import org.spongepowered.configurate.yaml.YamlConfigurationLoader;
 public class AdvNotify extends JavaPlugin {
 
     public static final String CHANNEL_GENERIC = "yep:generic";
-    public static final String CHANNEL_ADVANCEMENT = "yep:advancement";
 
     private static final Logger LOGGER = Logs.logger();
 
@@ -38,7 +37,6 @@ public class AdvNotify extends JavaPlugin {
         }
 
         Bukkit.getMessenger().registerOutgoingPluginChannel(this, CHANNEL_GENERIC);
-        Bukkit.getMessenger().registerOutgoingPluginChannel(this, CHANNEL_ADVANCEMENT);
 
         getServer().getPluginManager().registerEvents(new AdvNotifyListener(this), this);
     }

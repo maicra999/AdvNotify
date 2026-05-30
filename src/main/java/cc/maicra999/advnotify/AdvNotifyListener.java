@@ -55,7 +55,7 @@ public class AdvNotifyListener implements Listener {
         event.getPlayer()
                 .sendPluginMessage(
                         plugin,
-                        AdvNotify.CHANNEL_ADVANCEMENT,
+                        AdvNotify.CHANNEL_GENERIC,
                         String.format(
                                         ADVANCEMENT_MESSAGE_FORMAT,
                                         "yep:advancement",
